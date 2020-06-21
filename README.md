@@ -11,14 +11,21 @@
 
 > API com a lista de artistas e músicass
 
-### ✨ [Demo](https://github.com/leandro-matos/springboot-artistas)
+### ✨ [Demo](https://spring-artistas.herokuapp.com)
 
 ## Author
 
 👤 **Leandro Matos**
 
 * Website: https://www.gitshowcase.com/leandro-matos
+* Swagger: https://spring-artistas.herokuapp.com/swagger-ui.html
+* Artistas: https://spring-artistas.herokuapp.com/artistas
+* Músicas: https://spring-artistas.herokuapp.com/musicas
 * Github: [@leandro-matos](https://github.com/leandro-matos)
+
+### MySQL:
+![](images/mysql.JPG)
+![](images/pastas.JPG)
 
 ## Show your support
 
