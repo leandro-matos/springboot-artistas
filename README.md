@@ -24,7 +24,8 @@
 * Github: [@leandro-matos](https://github.com/leandro-matos)
 
 ### MySQL:
-![](images/mysql.PNG)
+![](images/mysql.JPG)
+![](images/pastas.JPG)
 
 ## Show your support
 
