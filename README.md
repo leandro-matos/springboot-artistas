@@ -23,6 +23,9 @@
 * Músicas: https://spring-artistas.herokuapp.com/musicas
 * Github: [@leandro-matos](https://github.com/leandro-matos)
 
+### MySQL:
+![](images/mysql.PNG)
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
