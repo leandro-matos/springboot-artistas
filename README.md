@@ -25,7 +25,9 @@
 
 ### MySQL:
 ![](images/mysql.JPG)
-![](images/pastas.JPG)
+
+### Estrutura de Pastas:
+![](images/pasta.JPG)
 
 ## Show your support
 
