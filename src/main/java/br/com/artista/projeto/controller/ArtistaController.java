@@ -51,14 +51,29 @@ public class ArtistaController {
 		return ResponseEntity.ok(lista);
 	}
 	
+	public boolean verificar(@RequestBody Artista novo) {
+		Artista resposta = dao.findByNomeArtisticoAndNacionalidade(novo.getNomeArtistico(), novo.getNacionalidade());
+		if (resposta != null) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
+	
 	@PostMapping("/artista/novo")
 	public ResponseEntity<Artista> addArtista(@RequestBody Artista novo) {
 		try {
-			dao.save(novo);
-			return ResponseEntity.ok(novo);
+			if (verificar(novo) == true) {
+				dao.save(novo);
+				return ResponseEntity.ok(novo);
+			} else {
+				return ResponseEntity.status(400).build();
+			}
 		}catch(Exception e) {
 			return ResponseEntity.status(400).build();
 		}
 	}
 	
+
 }
